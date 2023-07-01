@@ -1,0 +1,35 @@
+export const buttonStyle = {
+  width: "20vw",
+  height: "35vh",
+  backgroundColor: "white",
+  borderRadius: "10px",
+  border: "1px solid black",
+  boxShadow: "0px 0px 10px 0px rgba(0,0,0,0.75)",
+  fontSize: "20px",
+  fontWeight: "bold",
+  letterSpacing: "0.1rem",
+  color: "black",
+  textDecoration: "none",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  flexDirection: "column",
+  "&:hover": {
+    opacity: 0.7,
+    curser: "pointer",
+  },
+};
+export const TextStyle = {
+  fontSize: "2rem",
+  fontWeight: "bold",
+  letterSpacing: "0.1rem",
+  color: "black",
+  textDecoration: "none",
+  display: "flex",
+  justifyContent: "center",
+  alignItems: "center",
+  flexDirection: "column",
+  "&:hover": {
+    cursor: "default",
+  },
+};
